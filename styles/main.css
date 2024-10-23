@@ -7,6 +7,10 @@
  * value is the tone of the colour you want to retrieve. Values range from
  * 0 - 100 with 0 being black and 100 being white.
  */
+
+:root {
+  --purplebtn: #cc66ff;
+}
 :root {
   --ffSans: "Hanken Grotesk", sans-serif;
   --ffMonospace: "Fragment Mono", monospace;
@@ -24,8 +28,8 @@
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-color: hsl(160, 1%, 10%);
-  color: hsl(70, 81%, 90%);
+  background-color: #ffccff;
+  color: hsl(0, 0%, 0%);
 }
 
 ::-moz-selection {
@@ -150,6 +154,7 @@ project-card .project__desc {
   max-width: 70ch;
 }
 project-card .project__linkBtn {
+  background-color: var(--purplebtn);
   width: 100%;
   border: none;
   margin-top: 1rem;
@@ -183,6 +188,9 @@ project-card .project__linkBtn {
   display: inline-block;
   transition: 250ms ease;
   transition-property: transform, opacity;
+}
+.landing .projectsBtn {
+	background-color: var(--purplebtn);
 }
 .landing .projectsBtn .arrow {
   display: inline-block;
