@@ -12,7 +12,7 @@ function displayElements(targetEl) {
 }
 
 // Get all the public repositories in the user account alanasa64
-const USER = "alanasa64";
+const USER = "alananas64";
 let response = await fetch(`https://api.github.com/users/${USER}/repos`);
 let responseParsed = await response.json();
 console.log(responseParsed);

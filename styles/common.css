@@ -24,16 +24,16 @@
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-color: hsl(160, 1%, 10%);
-  color: hsl(70, 81%, 90%);
+  background-color: hsl(0, 1%, 10%);
+  color: hsl(270, 81%, 90%);
 }
 
 ::-moz-selection {
-  background-color: hsl(70, 25%, 50%);
+  background-color: hsl(270, 25%, 50%);
 }
 
 ::selection {
-  background-color: hsl(70, 25%, 50%);
+  background-color: hsl(270, 25%, 50%);
 }
 
 section {
@@ -48,7 +48,7 @@ section {
 header {
   position: fixed;
   width: 100vw;
-  background-color: rgba(25, 26, 26, 0.2);
+  background-color: rgba(26, 25, 25, 0.2);
   -webkit-backdrop-filter: blur(0.5rem);
           backdrop-filter: blur(0.5rem);
   padding: 2rem;
@@ -71,7 +71,7 @@ nav ul li a {
   transition: color 150ms ease;
 }
 nav ul li a:hover {
-  color: hsl(70, 36%, 60%);
+  color: hsl(270, 36%, 60%);
 }
 
 .overline {
@@ -87,32 +87,32 @@ nav ul li a:hover {
   border-radius: 0.5rem;
   font-weight: 500;
   font-size: clamp(0.75rem, 1.75vmin, 1.25rem);
-  background-color: hsl(160, 64%, 80%);
-  color: hsl(160, 4%, 20%);
+  background-color: hsl(0, 64%, 80%);
+  color: hsl(0, 4%, 20%);
   transition: 250ms ease;
   transition-property: background-color, color;
 }
 .btn:hover {
-  background-color: hsl(160, 36%, 60%);
-  color: hsl(160, 81%, 90%);
+  background-color: hsl(0, 36%, 60%);
+  color: hsl(0, 81%, 90%);
 }
 .btn--primary {
-  background-color: hsl(70, 25%, 50%);
-  color: hsl(70, 81%, 90%);
+  background-color: hsl(270, 25%, 50%);
+  color: hsl(270, 81%, 90%);
   border: none;
 }
 .btn--primary:hover {
-  background-color: hsl(70, 36%, 60%);
-  color: hsl(70, 81%, 90%);
+  background-color: hsl(270, 36%, 60%);
+  color: hsl(270, 81%, 90%);
 }
 .btn--outlined {
   background: transparent;
-  border: 1px solid hsl(160, 4%, 20%);
-  color: hsl(160, 81%, 90%);
+  border: 1px solid hsl(0, 4%, 20%);
+  color: hsl(0, 81%, 90%);
 }
 .btn--outlined:hover {
-  background-color: hsl(160, 4%, 20%);
-  color: hsl(160, 98.01%, 99%);
+  background-color: hsl(0, 4%, 20%);
+  color: hsl(0, 98.01%, 99%);
 }
 
 project-card {
@@ -131,8 +131,8 @@ project-card .tag {
   font-size: clamp(0.35rem, 1.2vmin, 0.75rem);
   text-transform: uppercase;
   padding: clamp(1px, 1vmin, 0.5rem) clamp(2px, 1.2vmin, 0.75rem);
-  background-color: hsl(70, 100%, 10%);
-  color: hsl(70, 81%, 90%);
+  background-color: hsl(270, 100%, 10%);
+  color: hsl(270, 81%, 90%);
   border-radius: 100rem;
 }
 project-card .tagWrapper {

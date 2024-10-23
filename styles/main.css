@@ -33,11 +33,11 @@ html {
 }
 
 ::-moz-selection {
-  background-color: hsl(70, 25%, 50%);
+  background-color: var(--purplebtn);
 }
 
 ::selection {
-  background-color: hsl(70, 25%, 50%);
+  background-color: var(--purplebtn);
 }
 
 section {
@@ -91,7 +91,7 @@ nav ul li a:hover {
   border-radius: 0.5rem;
   font-weight: 500;
   font-size: clamp(0.75rem, 1.75vmin, 1.25rem);
-  background-color: hsl(160, 64%, 80%);
+  background-color: var(--purplebtn);
   color: hsl(160, 4%, 20%);
   transition: 250ms ease;
   transition-property: background-color, color;
@@ -101,18 +101,18 @@ nav ul li a:hover {
   color: hsl(160, 81%, 90%);
 }
 .btn--primary {
-  background-color: hsl(70, 25%, 50%);
+	/* background-color: var(--purplebtn); */
   color: hsl(70, 81%, 90%);
   border: none;
 }
 .btn--primary:hover {
-  background-color: hsl(70, 36%, 60%);
+  background-color: hsl(280, 100%, 50%);
   color: hsl(70, 81%, 90%);
 }
 .btn--outlined {
   background: transparent;
   border: 1px solid hsl(160, 4%, 20%);
-  color: hsl(160, 81%, 90%);
+  color: black;
 }
 .btn--outlined:hover {
   background-color: hsl(160, 4%, 20%);
